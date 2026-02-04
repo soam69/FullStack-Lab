@@ -1,0 +1,29 @@
+0: cd mohanR
+1: git init
+2: echo "Git Lab Experiment" >README.md
+3: git status
+4: git add .
+5: git commit -m "Initial commit"
+6: git remote add origin https://github.com/soam69/FullStack-Lab.git
+7: git branch -M main
+8: git push -u origin main
+9: rm README.me
+10: mv README.me
+11: del README.me
+12: dir
+13: git status
+14: git add.
+15: git add .
+16: git commit -m "Deleted a file"
+17: git push
+18: git checkout main
+19: git branch alter
+20: git checkout alter
+21: echo "This file should be in the alter branch" >alt.txt
+22: git add .
+23: git commit -m "Added a file to alter branch"
+24: git push origin alter
+25: git checkout main
+26: git merge alter
+27: git push origin main
+28: git pull origin main
